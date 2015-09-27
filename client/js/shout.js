@@ -338,6 +338,7 @@ $(function() {
 		part: true,
 		thumbnails: true,
 		quit: true,
+		seconds: false,
 	}, $.cookie("settings"));
 
 	for (var i in options) {
